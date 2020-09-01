@@ -1,6 +1,3 @@
-
-
-
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -21,17 +18,14 @@ generateBtn.addEventListener("click", writePassword);
 
 
 function promptMe(){
-  var minLength = prompt("What is the minimum length for your password?");
-  var maxLength = prompt("What is the mmaximum length for your password?");
-  var lowerReq = confirm("Does it requirre at least one lower class letter?");
-  var upperReq = confirm("Does it requirre at least one upper class letter?");
-  var numberReq = confirm("Does it requirre at least one number?");
-  var specialReq = confirm("Does it requirre at least one lspecial charachter?");
-  alert ("Password must be between " + minLength + 
-          " and " + maxLength + 
-          " charachters long, requires: " + 
-          "Lowercase letters: " + lowerReq +
-          " | Uppercase letters: " + upperReq  +
-          " | Numbers: " + numberReq +    
-          " | Special charachters: " + specialReq );
+  var lengthReq = prompt("What is the length for your password?");
+  if (lengthReq < 8 || lengthReq > 128 || isNaN(lengthReq)) {
+    alert("Password must be between 8 and 128 digits long");
+  }
+else
+  var lowerReq = confirm("Does it require at least one lower class letter?");
+  var upperReq = confirm("Does it require at least one upper class letter?");
+  var numberReq = confirm("Does it require at least one number?");
+  var specialReq = confirm("Does it require at least one special charachter?");
+
 }
