@@ -1,0 +1,27 @@
+ROUGH IDEA ONLY
+
+// declare const variables
+
+// list of arrays
+lower
+upper
+special
+numbers
+
+Ask user for defaults
+function passwordOptions
+  var length prompt
+
+  // if else to check within range
+
+  // list of prompts
+  var upperReq = confirm("is upper req?")
+
+funtion generatepassword(){
+   //declare password arrays
+   var password array = [];
+
+   if(upperReq) {
+       passwordArray = passwordArray.concat
+   }
+}
