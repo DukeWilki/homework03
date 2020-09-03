@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -13,7 +13,7 @@
       <header>
         <h1>Password Generator</h1>
       </header>
-      <div class="card">
+      <section class="card">
         <div class="card-header">
           <h2 class="text-center">Random password creator</h2>
         </div>
@@ -25,36 +25,11 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
-        <!-- <div class="setting">
-          <label for ="length">How long is your password?</label>
-                    <div class="slidecontainer">
-            <input type="range" id="sliderlength" min="8" max="128"  class="slider" >
-            <input type="number" id="length" min="8" max="128"  />
-          </div>
-        </div> -->
-        <!-- <div class="setting">
-          <label for ="lowercase">Lowercase letters?</label>
-          <input type="checkbox" id="lowercase" unchecked />
-        </div>
-        <div class="setting">
-          <label for ="uppercase">Uppercase letters?</label>
-          <input type="checkbox" id="uppercase" unchecked />
-        </div>
-        <div class="setting">
-          <label for ="numbers">Numbers?</label>
-          <input type="checkbox" id="numbers" unchecked />
-        </div>
-        <div class="setting">
-          <label for ="specials">Special charachters?</label>
-          <input type="checkbox" id="specials" unchecked />
-        </div> -->
+        <div>  
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>
-        <!-- <div class="card-footer">
-          <button id="generateemojis" class="btn">Generate With Emoji</button>
-        </div> -->
-      </div>
+      </section>
     </div>
     <script src="script.js"></script>
   </body>

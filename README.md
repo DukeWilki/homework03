@@ -1,10 +1,10 @@
 # Homework Assignment 3 - Password Generator
-This assignment ...
+This assignment was to create a random password adhering to user defined conditions. 
 
 ## Contents
 <p>
-The app is composed of 3 html pages, one css page and 9 images: 
-index.html portfolio.html contact.html style.css plus images
+The app is composed of 1 html page, oone javascript page one css page and one image: 
+index.html script.js style.css secure.jpg
 </p>
 
 ## User Story
@@ -22,25 +22,25 @@ index.html portfolio.html contact.html style.css plus images
     GIVEN I need a new, secure password
     
     WHEN I click the button to generate a password
-    THEN I am presented with a series of prompts for password criteria - done
+    THEN I am presented with a series of prompts for password criteria
     
     WHEN prompted for password criteria
-    THEN I select which criteria to include in the password - done
+    THEN I select which criteria to include in the password
     
     WHEN prompted for the length of the password
-    THEN I choose a length of at least 8 characters and no more than 128 characters - done
+    THEN I choose a length of at least 8 characters and no more than 128 characters
     
     WHEN prompted for character types to include in the password
-    THEN I choose lowercase, uppercase, numeric, and/or special characters - done
+    THEN I choose lowercase, uppercase, numeric, and/or special characters
     
     WHEN I answer each prompt
-    THEN my input should be validated and at least one character type should be selected - done
+    THEN my input should be validated and at least one character type should be selected
     
     WHEN all prompts are answered
-    THEN a password is generated that matches the selected criteria - done
+    THEN a password is generated that matches the selected criteria
     
     WHEN the password is generated
-    THEN the password is either displayed in an alert or written to the page - done
+    THEN the password is either displayed in an alert or written to the page
 
 </p>
 
@@ -52,7 +52,7 @@ index.html portfolio.html contact.html style.css plus images
 
 
 ### Licence
-
+Not applicable
 
 ## Built With
 * [VScode](https://code.visualstudio.com/) - The editor of choice
