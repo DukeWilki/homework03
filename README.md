@@ -19,6 +19,7 @@ index.html script.js style.css secure.jpg
 
 ## Acceptance Criteria 
 <p>
+    
     GIVEN I need a new, secure password
     
     WHEN I click the button to generate a password
