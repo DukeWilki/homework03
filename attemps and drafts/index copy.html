@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>INDEX Generator</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="script3.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>INDEX Generator</h1>
+      </header>
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body">
+
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="controls">
+          <div class="slider">
+            <input type="range" min="8" max="128" name="slider" id="slider">
+          </div>
+          <div class="checkbox">
+            <label>Lower case letters?</label>
+            <input type="checkbox" id="lowercase" checked> 
+            <label>Upper case letters?</label>
+            <input type="checkbox" id="uppercase" checked> 
+            <label>Special charachters?</label>
+            <input type="checkbox" id="specialcase" checked> 
+            <label>Numbers?</label>
+            <input type="checkbox" id="numbercase" checked> 
+          </div>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn" type="button" >Generate Password</button>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
