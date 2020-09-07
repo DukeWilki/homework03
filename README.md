@@ -1,4 +1,4 @@
-Password Generator
+## Random Password Generator
 This assignment was to create a random password adhering to user defined conditions. 
 
 ## Contents
