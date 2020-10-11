@@ -54,7 +54,7 @@ https://dukewilki.github.io/password-generator/
 ![Screenshot 3](https://github.com/DukeWilki/password-generator/blob/master/assets/img/pw-prompt.JPG)
 
 ### Licence
-Not applicable
+MIT License | Copyright (c) 2020 Luke Wilkinson | https://github.com/DukeWilki/password-generator/blob/master/LICENSE
 
 ## Built With
 * [VScode](https://code.visualstudio.com/) - The editor of choice
