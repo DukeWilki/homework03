@@ -1,5 +1,5 @@
 ## Random Password Generator
-This assignment was to create a random password adhering to user defined conditions. 
+This is a random password generator. It asks the user what requirements are needed (capitals, lowercase letters, numbers and special charachters) and the required length. The applicatuion then creates a password which can then be copied and used by the user.
 
 ## Contents
 <p>
