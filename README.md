@@ -45,14 +45,13 @@ index.html script.js style.css secure.jpg
 
 </p>
 
+### Link to the App
+https://dukewilki.github.io/password-generator/
+
 ## Screenshots
 ![Screenshot 1](https://github.com/DukeWilki/password-generator/blob/master/assets/img/pw-before.JPG)
 ![Screenshot 2](https://github.com/DukeWilki/password-generator/blob/master/assets/img/pw-after.JPG)
 ![Screenshot 3](https://github.com/DukeWilki/password-generator/blob/master/assets/img/pw-prompt.JPG)
-
-
-### Link to the App
-https://dukewilki.github.io/password-generator/
 
 ### Licence
 Not applicable
